@@ -1,0 +1,72 @@
+# Name of your blog (this will show up at the top of your page and in the RSS feed)
+name: 3D print service @ SEU
+
+# Short description (goes below the title; it will also be used in the RSS feed)
+description: 3D print service @ SEU
+
+# Your name, as you want it to appear underneath each post and in the footer
+author: 3D print service @ SEU
+
+# Logo image
+logo: http://www.strathseds.org/static/images/logos/strathseds-200px.png
+
+# Your email if you want it to be linked on the contact page
+contact_email: seu_3d_print@163.com
+web_email: seu_3d_print@163.com
+
+# Committee data
+committee_positions: [president, vicepresident]
+committee:
+  president:
+    name: 卞杨清
+    gravatar:
+    email: seu_3d_print@163.com
+    position: President
+  vicepresident:
+    name: 艾凌风
+    gravatar: 
+    email: seu_3d_print@163.com
+    position: Vice-president
+
+
+# The URL of your actual domain. This will be used to make absolute links in the RSS feed.
+baseurl: http://seu-3d-print.github.io
+url: http://seu-3d-print.github.io
+projecturl: http://seu-3d-print.github.io
+
+# Static URL's
+staticurl: http://seu-3d-print.github.io/static
+imageurl: http://seu-3d-print.github.io/images/
+
+# Link to the strathseds google doc
+#joinlink: https://docs.google.com/forms/d/1se_VAeEZ0Coy9uWl6fSnfEhbLANFqqCxk_F3Ye6W_CM/viewform?embedded=true
+
+# Google analytics id
+analyticsID: UA-48815860-1
+analyticsDomain: strathseds.org
+
+#twitter_name: 'StrathSEDS'
+#twitter_creator: '@StrathSEDS'
+#twitter_title: Students for the Exploration and Development of Space
+#twitter_description: The Strathclyde Students for the Exploration and Development of Space is an engineering/science based society for students of the University of Strathclyde.
+#twitter_domain: strathseds.org
+
+
+# Misc
+future: false
+
+#### Under the Hood Stuff #####
+
+# Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
+# If you use maroku (default engine) some of your generated pages may not validate or lint as html5
+# If you don't have it install it via gem install rdiscount
+markdown: rdiscount
+
+# Continue compiling even if there are errors. Keep it true, unless troubleshooting.
+auto: true
+
+# Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
+permalink: pretty
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: README.md, package.json, grunt.js, Gruntfile.js, node_modules, gen.sh 

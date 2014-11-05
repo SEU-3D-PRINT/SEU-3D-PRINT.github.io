@@ -1,0 +1,9 @@
+      <div class="footer">
+          <p><span class="text-left">
+            
+            <span class="pull-right">
+            &#169; SEU_3D_PRINT {{ site.time | date: '%Y' }} 
+            </span>
+            </span>
+            </p>
+      </div>
