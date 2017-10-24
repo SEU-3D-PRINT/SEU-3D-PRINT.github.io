@@ -11,21 +11,21 @@ author: 3D print service @ SEU
 logo: http://www.strathseds.org/static/images/logos/strathseds-200px.png
 
 # Your email if you want it to be linked on the contact page
-contact_email: seu_3d_print@163.com
-web_email: seu_3d_print@163.com
+contact_email: 545530175@qq.com
+web_email: 545530175@qq.com
 
 # Committee data
 committee_positions: [president, vicepresident]
 committee:
   president:
-    name: 卞杨清
+    name: 胡玉波
     gravatar:
-    email: seu_3d_print@163.com
+    email: 545530175@qq.com
     position: President
   vicepresident:
-    name: 艾凌风
+    name: 郑超强
     gravatar: 
-    email: seu_3d_print@163.com
+    email: 925610069@qq.com
     position: Vice-president
 
 
